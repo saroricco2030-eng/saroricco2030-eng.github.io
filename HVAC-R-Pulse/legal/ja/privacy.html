@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー · HVAC-R Pulse</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      'Noto Sans KR', 'Noto Sans JP', sans-serif;
+    background: #0A1628;
+    color: #fff;
+    line-height: 1.7;
+    margin: 0;
+    padding: 32px 16px 64px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .back {
+    color: #22D3EE; text-decoration: none; font-size: 13px;
+    display: inline-block; margin-bottom: 24px;
+  }
+  .back:hover { text-decoration: underline; }
+  h1 { color: #22D3EE; font-weight: 700; margin: 0 0 4px; font-size: 28px; }
+  .subtitle { color: rgba(255,255,255,0.55); font-size: 14px; margin-bottom: 12px; }
+  .meta {
+    color: rgba(255,255,255,0.47); font-size: 12px; margin-bottom: 32px;
+    padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+  h2 { color: #fff; font-size: 18px; font-weight: 700; margin: 32px 0 12px; }
+  p { color: rgba(255,255,255,0.88); white-space: pre-wrap; margin: 0 0 12px; font-size: 15px; }
+  ul { color: rgba(255,255,255,0.88); font-size: 15px; padding-left: 20px; }
+  a { color: #22D3EE; }
+  dl { margin: 0; font-size: 15px; }
+  dt { color: rgba(255,255,255,0.55); font-size: 13px; margin-top: 14px; }
+  dd { margin: 2px 0 0; color: rgba(255,255,255,0.92); }
+  .todo { color: #FBBF24; }
+  .langs {
+    margin-top: 40px; padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    font-size: 13px; color: rgba(255,255,255,0.55);
+  }
+  .langs a { margin-right: 10px; display: inline-block; }
+  footer {
+    margin-top: 32px; padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.47); font-size: 12px; text-align: center;
+  }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../">← 法的文書一覧へ</a>
+  <h1>プライバシーポリシー</h1>
+  <p class="meta">バージョン 2.0 · 最終更新 2026-09-26</p>
+  <h2>1. 収集する情報</h2>
+  <p>HVAC-R Pulse はサービス改善のため、以下の最小限のデータを収集します:
+
+- 端末識別子（匿名化）
+- アプリ利用統計（画面遷移、機能の利用頻度）
+- クラッシュログ（アプリのエラー発生時の技術情報）
+
+この収集はお客様がオンにするまで行われず、設定 &gt; プライバシーからいつでもオフに戻せます。
+
+お名前、メールアドレス、アカウント情報は収集しません。
+
+端末内にとどまるデータ: 入力された顧客・現場・機器・測定値・写真・音声メモはこの端末に保存され、当社へ送信されません。
+
+端末を離れる可能性があるのは次の5つだけです:
+
+- 音声入力: 測定値を音声で入力すると、音声は端末の音声認識サービスに渡され、OS 提供元のサーバーで変換される場合があります。アプリは録音を保持しません。
+- AI 要約（既定でオフ）: ご自身の Anthropic API キーを入力した場合、現在のシステム測定値（圧力・温度・過熱度・過冷却度・冷媒）が api.anthropic.com へ送信されます。
+- AI 写真診断（既定でオフ）: 同じキーで、選択した写真が読み取りのため api.anthropic.com へ送信されます。
+- AI チャット（既定でオフ）: 同じキーで、入力した質問とその質問が参照する測定値が api.anthropic.com へ送信されます。
+- AI 規制質問（既定でオフ）: 同じキーで、入力した質問が api.anthropic.com へ送信されます。R3・R4 報告書の引用提案もこれに当たり、報告書の冷媒と要約・故障内容は送信しますが、顧客名は送信しません。
+
+アプリはこれらの要求に個人情報を付け加えませんが、ご自身で入力・撮影した内容はそのまま送信されます。質問や写真に顧客の氏名・住所を含めないでください。
+
+4つの AI 機能はいずれもキーを入力するまで動作せず、キーはいつでも削除できます。</p>
+  <h2>2. 収集目的</h2>
+  <p>収集されたデータは以下の目的にのみ使用されます：
+
+- サービス品質の改善およびユーザー体験の最適化
+- アプリのエラーおよびクラッシュの修正
+- 機能使用パターンの分析によるアプリの改善
+
+収集されたデータは広告目的に使用されず、ユーザープロファイリングにも利用されません。</p>
+  <h2>3. データ保管期間</h2>
+  <p>保存期間は記録の種類によって異なります。規制ごとに求められる期間が違うためです。冷媒取扱記録と顧客現場データは5年（EPA AIM Act、EU F-gas規則）、コミッショニング記録は3年、HACCP・運用記録は2年、位置情報は24時間で、一時作業データは保存しません。
+
+記録は、お客様が削除したときまたはアカウントを削除したときに削除されます。本アプリは現在、バックグラウンドで記録を自動的に失効させません。上記の期間は記録をどれだけ保持しうるかを示すものであり、自動で消去するカウントダウンではありません。</p>
+  <h2>4. 第三者への提供</h2>
+  <p>以下の第三者サービスを通じてクラッシュおよび分析データが処理されます：
+
+- Firebase Crashlytics (Google): クラッシュレポートの収集および分析
+- Firebase Analytics (Google): アプリ使用統計の収集
+
+Googleのプライバシーポリシー: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+
+これ以外にユーザーデータを第三者に販売または提供することはありません。
+
+任意のAI機能をご自身のAnthropic APIキーで有効にすると、そのキーでapi.anthropic.com（Anthropic, PBC、米国）へ要求が送信されます。AI要約には現在のシステム測定値、AIチャットには入力した質問と参照する測定値、AI規制質問には入力した質問が送信されます（R3・R4報告書の引用提案を含む — 報告書の冷媒と要約・故障内容で、顧客名は送信しません）。アプリは個人情報を付け加えませんが、ご自身で入力・撮影した内容はそのまま送信されます。
+
+同じ Anthropic API キーは AI 写真診断にも使われ、選択した画像が読み取りのため api.anthropic.com へアップロードされます。4つの AI 機能はいずれもキーを入力するまでオフで、キーはいつでも削除できます。
+
+音声による測定入力の認識は、端末のオペレーティングシステム（iOS は Apple、Android は Google）が行います。端末によっては、変換のために音声が各提供元のサーバーへ送信される場合があります。対象は読み上げた測定値のみで、アプリは音声を保存しません。</p>
+  <h2>5. データの保存およびセキュリティ</h2>
+  <p>- 設定・認証情報・規制記録（冷媒ログ、監査証跡、署名チェーン）は AES-256-GCM で暗号化して保存され、鍵はプラットフォームのセキュアストレージ（Keychain/Keystore）から導出されます
+- 写真と音声メモは、アプリ専用サンドボックス内に通常の画像・音声ファイルとして保存されます。アプリによる追加の暗号化は行わず、OS の端末レベル保護に依存します
+- すべての通信に HTTPS を使用します
+- 書き出した暗号化バックアップは、お客様が設定したパスワードで保護されます。当社はそのパスワードを復元できません</p>
+  <h2>6. ユーザーの権利</h2>
+  <p>お客様には以下の権利があり、いずれもアプリ内で行使できます:
+
+- 同意の撤回: 設定 &gt; プライバシー で利用統計とクラッシュレポートを個別にいつでもオフにできます
+- データの削除: 設定 &gt; アカウント削除 で、この端末に保存されたデータおよび関連するクラウド上の記録を削除します
+- データの書き出し: 設定 &gt; データバックアップ で、お客様が管理する暗号化コピーを作成できます。対象は設定とアプリが保管するすべての記録（レポート、顧客とその連絡先、作業指示、見積・請求書、規制記録とチェーン）で、写真と録音は端末に残ります。同じ画面の「データをエクスポート」では、同じ記録を暗号化されていない読めるファイルとして受け取れます。
+
+当社による代行をご希望の場合は、下記のメールアドレスへご連絡ください。受領から 30 日以内に対応します。</p>
+  <h2>7. 児童のプライバシー保護</h2>
+  <p>HVAC-R Pulseは14歳未満の児童を対象としておらず、意図的に児童の個人情報を収集しません。14歳未満の児童のデータが収集された事実を認識した場合、当該データを直ちに削除します。</p>
+  <h2>8. お問い合わせ</h2>
+  <p>プライバシーポリシーに関するお問い合わせまたはデータ削除の要請：
+
+メール: saroricco2030@gmail.com
+
+本ポリシーは変更される場合があり、変更時はアプリ内で通知します。</p>
+
+  <div class="langs"><strong>他の言語:</strong><br><a href="../en/privacy.html">🇺🇸 English</a>
+    <a href="../ko/privacy.html">🇰🇷 한국어</a>
+    <span>🇯🇵 日本語</span>
+    <a href="../es/privacy.html">🇪🇸 Español</a>
+    <a href="../de/privacy.html">🇩🇪 Deutsch</a>
+    <a href="../fr/privacy.html">🇫🇷 Français</a>
+    <a href="../it/privacy.html">🇮🇹 Italiano</a>
+    <a href="../pt/privacy.html">🇵🇹 Português</a></div>
+  <footer>HVAC-R Pulse · saroricco · saroricco2030@gmail.com</footer>
+</main>
+</body>
+</html>

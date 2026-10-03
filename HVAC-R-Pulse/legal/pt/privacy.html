@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Política de privacidade · HVAC-R Pulse</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      'Noto Sans KR', 'Noto Sans JP', sans-serif;
+    background: #0A1628;
+    color: #fff;
+    line-height: 1.7;
+    margin: 0;
+    padding: 32px 16px 64px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .back {
+    color: #22D3EE; text-decoration: none; font-size: 13px;
+    display: inline-block; margin-bottom: 24px;
+  }
+  .back:hover { text-decoration: underline; }
+  h1 { color: #22D3EE; font-weight: 700; margin: 0 0 4px; font-size: 28px; }
+  .subtitle { color: rgba(255,255,255,0.55); font-size: 14px; margin-bottom: 12px; }
+  .meta {
+    color: rgba(255,255,255,0.47); font-size: 12px; margin-bottom: 32px;
+    padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+  h2 { color: #fff; font-size: 18px; font-weight: 700; margin: 32px 0 12px; }
+  p { color: rgba(255,255,255,0.88); white-space: pre-wrap; margin: 0 0 12px; font-size: 15px; }
+  ul { color: rgba(255,255,255,0.88); font-size: 15px; padding-left: 20px; }
+  a { color: #22D3EE; }
+  dl { margin: 0; font-size: 15px; }
+  dt { color: rgba(255,255,255,0.55); font-size: 13px; margin-top: 14px; }
+  dd { margin: 2px 0 0; color: rgba(255,255,255,0.92); }
+  .todo { color: #FBBF24; }
+  .langs {
+    margin-top: 40px; padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    font-size: 13px; color: rgba(255,255,255,0.55);
+  }
+  .langs a { margin-right: 10px; display: inline-block; }
+  footer {
+    margin-top: 32px; padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.47); font-size: 12px; text-align: center;
+  }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../">← Voltar ao índice jurídico</a>
+  <h1>Política de privacidade</h1>
+  <p class="meta">Versão 2.0 · Última atualização 2026-09-26</p>
+  <h2>1. Informação que recolhemos</h2>
+  <p>A HVAC-R Pulse recolhe os seguintes dados mínimos para melhorar os nossos serviços:
+
+- Identificadores do dispositivo (anonimizados)
+- Estatísticas de utilização (transições de ecrã, frequência de utilização de funcionalidades)
+- Registos de falhas (informação técnica quando ocorre um erro)
+
+Esta recolha está desativada até que a ative e pode desativá-la novamente a qualquer momento em Definições &gt; Privacidade.
+
+Não recolhemos o seu nome, endereço de e-mail ou dados de conta.
+
+Dados que permanecem no seu dispositivo: os clientes, locais, equipamentos, medições, fotografias ou notas de voz que introduzir são guardados neste dispositivo e não nos são enviados.
+
+Apenas cinco coisas podem sair do dispositivo:
+
+- Introdução por voz: ao ditar uma medição, o áudio é entregue ao serviço de reconhecimento de voz do próprio dispositivo, que pode transcrevê-lo nos servidores do fornecedor do sistema operativo. A aplicação não guarda a gravação.
+- Resumo com IA (desativado por predefinição): se introduzir a sua própria chave de API da Anthropic, as leituras atuais do sistema (pressões, temperaturas, sobreaquecimento/subarrefecimento e refrigerante) são enviadas para api.anthropic.com.
+- Diagnóstico de fotografias com IA (desativado por predefinição): com a mesma chave, a fotografia que escolher é enviada para api.anthropic.com para ser lida.
+- Chat com IA (desativado por predefinição): com a mesma chave, a pergunta que escrever e as medições a que se refere são enviadas para api.anthropic.com.
+- Perguntas regulamentares com IA (desativadas por predefinição): com a mesma chave, a pergunta que escrever é enviada para api.anthropic.com. Inclui a sugestão de referências nos relatórios R3/R4, que envia o refrigerante e o texto de resumo ou de avaria do relatório, mas não o nome do cliente.
+
+A aplicação não acrescenta dados pessoais a estes pedidos, mas tudo o que escrever ou fotografar é enviado tal como está: não inclua nomes nem moradas de clientes nas perguntas e fotografias.
+
+As quatro funcionalidades de IA permanecem desativadas até fornecer uma chave, que pode remover a qualquer momento.</p>
+  <h2>2. Finalidade da recolha</h2>
+  <p>Os dados recolhidos são utilizados exclusivamente para as seguintes finalidades:
+
+- Melhoria da qualidade do serviço e otimização da experiência do utilizador
+- Resolução de erros e falhas da aplicação
+- Melhoria da aplicação através da análise dos padrões de utilização das funcionalidades
+
+Os dados recolhidos não são utilizados para fins publicitários nem para a criação de perfis de utilizadores.</p>
+  <h2>3. Período de conservação dos dados</h2>
+  <p>A conservação depende do tipo de registo, porque regulamentos diferentes exigem prazos diferentes: os registos de manuseamento de fluido refrigerante e os dados do local do cliente são mantidos durante 5 anos (EPA AIM Act, Regulamento europeu dos gases fluorados), os registos de comissionamento durante 3 anos, os registos HACCP e operacionais durante 2 anos, as entradas de localização durante 24 horas, e os dados de trabalho temporários não são mantidos.
+
+Os registos são removidos quando os elimina ou quando elimina a sua conta. A aplicação não faz expirar registos automaticamente em segundo plano, pelo que os prazos acima indicam durante quanto tempo um registo pode ser mantido, e não uma contagem decrescente que o apaga por si.</p>
+  <h2>4. Serviços de terceiros</h2>
+  <p>Os dados de falhas e de análise são processados através dos seguintes serviços de terceiros:
+
+- Firebase Crashlytics (Google): recolha e análise de relatórios de falhas
+- Firebase Analytics (Google): recolha de estatísticas de utilização da aplicação
+
+Política de Privacidade da Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+
+Não vendemos nem fornecemos os dados dos utilizadores a quaisquer outros terceiros.
+
+Se ativar as funcionalidades opcionais de IA com a sua própria chave de API da Anthropic, os pedidos são enviados com essa chave para api.anthropic.com (Anthropic, PBC, Estados Unidos): as leituras atuais do sistema para o resumo com IA; a pergunta que escrever e as medições a que se refere para o chat com IA; e a pergunta que escrever para as perguntas regulamentares com IA, incluindo a sugestão de referências nos relatórios R3/R4 (o refrigerante e o texto de resumo ou de avaria do relatório, nunca o nome do cliente). A aplicação não acrescenta dados pessoais, mas o que escrever ou fotografar é enviado tal como está.
+
+O reconhecimento de voz para a introdução de medições é efetuado pelo sistema operativo do seu dispositivo (Apple no iOS, Google no Android). Consoante o dispositivo, o áudio pode ser enviado para os servidores desse fornecedor para transcrição. Apenas a leitura ditada está envolvida e a aplicação não armazena o áudio.
+
+A mesma chave de API da Anthropic também alimenta o diagnóstico de fotografias com IA: a imagem que selecionar é enviada para api.anthropic.com para ser lida. As quatro funcionalidades de IA permanecem desativadas até introduzir uma chave, que pode remover a qualquer momento.</p>
+  <h2>5. Armazenamento e segurança dos dados</h2>
+  <p>- Definições, credenciais e registos regulamentares (registos de refrigerante, trilho de auditoria, cadeia de assinaturas) são guardados cifrados com AES-256-GCM, com chave derivada do armazenamento seguro da plataforma (Keychain/Keystore)
+- Fotografias e notas de voz são guardadas como ficheiros de imagem e áudio comuns na sandbox privada da aplicação. A aplicação não as cifra adicionalmente e dependem da proteção ao nível do dispositivo do sistema operativo
+- É utilizado HTTPS em todas as comunicações de rede
+- As cópias de segurança cifradas que exportar são protegidas por uma palavra-passe à sua escolha. Não conseguimos recuperar essa palavra-passe</p>
+  <h2>6. Os seus direitos</h2>
+  <p>Tem os seguintes direitos e pode exercê-los todos dentro da aplicação:
+
+- Retirar o consentimento: em Definições &gt; Privacidade pode desativar separadamente as estatísticas de utilização e os relatórios de falhas, a qualquer momento
+- Eliminar os seus dados: Definições &gt; Eliminar conta apaga os dados guardados neste dispositivo e qualquer registo na nuvem associado
+- Exportar os seus dados: em Definições &gt; Cópia de segurança dos dados pode criar uma cópia cifrada sob o seu controlo. Abrange as suas definições e todos os registos da aplicação — relatórios, clientes e respetivos contactos, ordens de trabalho, orçamentos e faturas, e os registos e cadeias regulamentares; as fotografias e gravações de áudio ficam no dispositivo. No mesmo ecrã, Exportar os meus dados entrega-lhe esses registos num ficheiro legível não cifrado.
+
+Se preferir que atuemos em seu nome, escreva para o endereço de e-mail indicado abaixo. Os pedidos são tratados no prazo de 30 dias após a receção.</p>
+  <h2>7. Privacidade das crianças</h2>
+  <p>A HVAC-R Pulse não se destina a crianças com menos de 14 anos e não recolhemos conscientemente informação pessoal de crianças. Se tomarmos conhecimento de que foram recolhidos dados de uma criança com menos de 14 anos, eliminá-los-emos de imediato.</p>
+  <h2>8. Contacto</h2>
+  <p>Para questões relacionadas com a privacidade ou pedidos de eliminação de dados:
+
+E-mail: saroricco2030@gmail.com
+
+Esta política pode ser atualizada periodicamente. As alterações serão notificadas dentro da aplicação.</p>
+
+  <div class="langs"><strong>Outros idiomas:</strong><br><a href="../en/privacy.html">🇺🇸 English</a>
+    <a href="../ko/privacy.html">🇰🇷 한국어</a>
+    <a href="../ja/privacy.html">🇯🇵 日本語</a>
+    <a href="../es/privacy.html">🇪🇸 Español</a>
+    <a href="../de/privacy.html">🇩🇪 Deutsch</a>
+    <a href="../fr/privacy.html">🇫🇷 Français</a>
+    <a href="../it/privacy.html">🇮🇹 Italiano</a>
+    <span>🇵🇹 Português</span></div>
+  <footer>HVAC-R Pulse · saroricco · saroricco2030@gmail.com</footer>
+</main>
+</body>
+</html>

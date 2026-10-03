@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy · HVAC-R Pulse</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      'Noto Sans KR', 'Noto Sans JP', sans-serif;
+    background: #0A1628;
+    color: #fff;
+    line-height: 1.7;
+    margin: 0;
+    padding: 32px 16px 64px;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  .back {
+    color: #22D3EE; text-decoration: none; font-size: 13px;
+    display: inline-block; margin-bottom: 24px;
+  }
+  .back:hover { text-decoration: underline; }
+  h1 { color: #22D3EE; font-weight: 700; margin: 0 0 4px; font-size: 28px; }
+  .subtitle { color: rgba(255,255,255,0.55); font-size: 14px; margin-bottom: 12px; }
+  .meta {
+    color: rgba(255,255,255,0.47); font-size: 12px; margin-bottom: 32px;
+    padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.07);
+  }
+  h2 { color: #fff; font-size: 18px; font-weight: 700; margin: 32px 0 12px; }
+  p { color: rgba(255,255,255,0.88); white-space: pre-wrap; margin: 0 0 12px; font-size: 15px; }
+  ul { color: rgba(255,255,255,0.88); font-size: 15px; padding-left: 20px; }
+  a { color: #22D3EE; }
+  dl { margin: 0; font-size: 15px; }
+  dt { color: rgba(255,255,255,0.55); font-size: 13px; margin-top: 14px; }
+  dd { margin: 2px 0 0; color: rgba(255,255,255,0.92); }
+  .todo { color: #FBBF24; }
+  .langs {
+    margin-top: 40px; padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    font-size: 13px; color: rgba(255,255,255,0.55);
+  }
+  .langs a { margin-right: 10px; display: inline-block; }
+  footer {
+    margin-top: 32px; padding-top: 16px;
+    border-top: 1px solid rgba(255,255,255,0.07);
+    color: rgba(255,255,255,0.47); font-size: 12px; text-align: center;
+  }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../">← Back to legal index</a>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Version 2.0 · Last updated 2026-09-26</p>
+  <h2>1. Information We Collect</h2>
+  <p>HVAC-R Pulse collects the following minimal data to improve our services:
+
+- Device identifiers (anonymized)
+- App usage statistics (screen transitions, feature usage frequency)
+- Crash logs (technical information when app errors occur)
+
+This collection is off until you turn it on, and you can turn it back off at any time in Settings &gt; Privacy.
+
+We do not collect your name, email address, or account details.
+
+Data that stays on your device: any customer, site, equipment, measurement, photo, or voice note you enter is stored on this device and is not sent to us.
+
+Five things can leave the device, and only these:
+
+- Voice entry: when you dictate a measurement, the audio is handed to your device's own speech service, which may transcribe it on the operating-system vendor's servers. The app does not keep the recording.
+- AI summary (off by default): if you enter your own Anthropic API key, the current system readings (pressures, temperatures, superheat/subcool and refrigerant) are sent to api.anthropic.com.
+- AI photo diagnosis (off by default): with the same key, the photo you choose is sent to api.anthropic.com to be read.
+- AI chat (off by default): with the same key, the question you type and the readings it refers to are sent to api.anthropic.com.
+- AI regulation questions (off by default): with the same key, the question you type is sent to api.anthropic.com. This includes the citation suggestion on R3/R4 reports, which sends the report's refrigerant and summary or fault text but not the customer's name.
+
+The app adds no personal data to these requests, but whatever you type or photograph is sent as it is — leave customer names and addresses out of questions and photos.
+
+All four AI features stay off until you supply a key, and you can remove it at any time.</p>
+  <h2>2. Purpose of Collection</h2>
+  <p>Collected data is used solely for the following purposes:
+
+- Service quality improvement and user experience optimization
+- App error and crash resolution
+- App improvement through feature usage pattern analysis
+
+Collected data is not used for advertising purposes and is not used for user profiling.</p>
+  <h2>3. Data Retention Period</h2>
+  <p>Retention depends on the record type, because different regulations require different periods: refrigerant handling records and customer site data are kept for 5 years (EPA AIM Act, EU F-Gas Regulation), commissioning records for 3 years, HACCP and operational records for 2 years, location entries for 24 hours, and temporary working data is not kept.
+
+Records are removed when you delete them or delete your account. The app does not currently expire records automatically in the background, so the periods above describe how long a record may be kept, not a countdown that erases it for you.</p>
+  <h2>4. Third-Party Services</h2>
+  <p>Crash and analytics data is processed through the following third-party services:
+
+- Firebase Crashlytics (Google): Crash report collection and analysis
+- Firebase Analytics (Google): App usage statistics collection
+
+Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+
+We do not sell or provide user data to any other third parties.
+
+If you enable the optional AI features with your own Anthropic API key, requests go to api.anthropic.com (Anthropic, PBC, United States) under that key: the current system readings for the AI summary; the question you type and the readings it refers to for AI chat; and the question you type for AI regulation questions, including the citation suggestion on R3/R4 reports (the report's refrigerant and summary or fault text, never the customer's name). The app adds no personal data, but whatever you type or photograph is sent as it is.
+
+The same Anthropic API key also powers AI photo diagnosis: the image you select is uploaded to api.anthropic.com to be read. All four AI features stay off until you enter a key, and you can remove it at any time.
+
+Speech recognition for voice measurement entry is performed by your device's operating system (Apple on iOS, Google on Android). Depending on the device, the audio may be sent to that vendor's servers for transcription. Only the spoken reading is involved, and the app does not store the audio.</p>
+  <h2>5. Data Storage &amp; Security</h2>
+  <p>- Settings, credentials, and regulatory records (refrigerant logs, audit trail, signature chain) are stored encrypted with AES-256-GCM, keyed from platform secure storage (Keychain/Keystore)
+- Photos and voice notes are stored as ordinary image and audio files in the app's private sandbox. They are not additionally encrypted by the app, and rely on the operating system's device-level protection
+- HTTPS is used for all network communication
+- Encrypted backups you export are protected by a password you choose. We cannot recover that password</p>
+  <h2>6. Your Rights</h2>
+  <p>You have the following rights, and you can exercise all of them inside the app:
+
+- Withdraw consent: Settings &gt; Privacy lets you turn usage analytics and crash reporting off separately, at any time
+- Delete your data: Settings &gt; Delete account erases the data held on this device, and any cloud record associated with it
+- Export your data: Settings &gt; Backup data lets you write an encrypted copy you control. It covers your settings and every record the app keeps — reports, customers and their contact details, work orders, estimates and invoices, and the regulatory logs and chains. Photos and audio recordings stay on the device. On the same screen, Export my data gives you those records as an unencrypted, readable file.
+
+If you would rather have us act on your behalf, write to the email address below. Requests are handled within 30 days of receipt.</p>
+  <h2>7. Children's Privacy</h2>
+  <p>HVAC-R Pulse is not intended for children under the age of 14, and we do not knowingly collect personal information from children. If we become aware that data from a child under 14 has been collected, we will delete it immediately.</p>
+  <h2>8. Contact</h2>
+  <p>For privacy-related inquiries or data deletion requests:
+
+Email: saroricco2030@gmail.com
+
+This policy may be updated from time to time. Changes will be notified within the app.</p>
+
+  <div class="langs"><strong>Other languages:</strong><br><span>🇺🇸 English</span>
+    <a href="../ko/privacy.html">🇰🇷 한국어</a>
+    <a href="../ja/privacy.html">🇯🇵 日本語</a>
+    <a href="../es/privacy.html">🇪🇸 Español</a>
+    <a href="../de/privacy.html">🇩🇪 Deutsch</a>
+    <a href="../fr/privacy.html">🇫🇷 Français</a>
+    <a href="../it/privacy.html">🇮🇹 Italiano</a>
+    <a href="../pt/privacy.html">🇵🇹 Português</a></div>
+  <footer>HVAC-R Pulse · saroricco · saroricco2030@gmail.com</footer>
+</main>
+</body>
+</html>
